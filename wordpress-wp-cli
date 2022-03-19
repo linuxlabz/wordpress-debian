@@ -1,0 +1,13 @@
+## WP-CLI Installing wordpress
+
+# wp core download --allow-root
+Downloading WordPress 5.9.2 (en_US)...
+md5 hash verified: b5e9c3b8dfd767d55c3797c2eae0f57d
+Success: WordPress downloaded.
+
+# wp core config --dbname=wordpress_db --dbuser=wordpress_db_user --dbpass=wordpress_db_password --dbhost=localhost --dbprefix=wp_ --allow-root
+Success: Generated 'wp-config.php' file.
+
+# wp core install --url="http://wordpress-lab.com" --title="WordPress Lab" --admin_user="Admin" --admin_password="AdminPassWord" --admin_email="info@wordpress-lab.com" --allow-root
+Success: WordPress installed successfully.
+
