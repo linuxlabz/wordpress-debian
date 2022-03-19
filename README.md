@@ -20,7 +20,7 @@ We will try to install WordPress CMS on Debian 11 VPS, we will install and confi
 - Update our server.
 - Install required packages ( i.e. MariaDB, Nginx, Apache, and PHP ).
 - Add The Domain User To The System.
-- Install WP-CLI
+- [Install WP-CLI](./wordpress-wp-cli)
 - Install WordPress
 - Set WordPress File Permission
 - Firewalls for all ports except HTTP(S) and SSH.
