@@ -17,13 +17,13 @@ We will try to install WordPress CMS on Debian 11 VPS, we will install and confi
 
 **we will:**
 
--Update our server.
--Install required packages ( i.e. MariaDB, Nginx, Apache, and PHP ).
--Add The Domain User To The System.
--Install WP-CLI
--Install WordPress
--Set WordPress File Permission
--Firewalls for all ports except HTTP(S) and SSH.
--Install fail2bab to harden SSH access.
+- Update our server.
+- Install required packages ( i.e. MariaDB, Nginx, Apache, and PHP ).
+- Add The Domain User To The System.
+- Install WP-CLI
+- Install WordPress
+- Set WordPress File Permission
+- Firewalls for all ports except HTTP(S) and SSH.
+- Install fail2bab to harden SSH access.
 
 The Full Articles Are Here: https://netslovers.com/2022/03/19/installing-wordpress-on-debian-11/
